@@ -1,0 +1,5 @@
+package com.ust.ioc.autowiring;
+
+public class A {
+
+}

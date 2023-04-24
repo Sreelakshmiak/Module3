@@ -1,0 +1,10 @@
+package com.ust.rest.resource;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+
+@Entity
+public class User {
+	@Id
+	@GeneratedValue
+}

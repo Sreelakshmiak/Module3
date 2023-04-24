@@ -1,0 +1,18 @@
+package com.ust.rest.resource;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+@Table(name="Product_User")
+public class User {
+	@Id
+	@GeneratedValue
+	private long userId;
+	private String dataTime;
+	public long getUserId() {
+		
+		
+	}
+}

@@ -1,0 +1,11 @@
+package com.ust.ioc2;
+
+public class TestDrawing {
+public static void main(String[] args) {
+	for(int i=0;i<10;i++)
+	{
+		System.out.println("__");
+	}
+	
+}
+}

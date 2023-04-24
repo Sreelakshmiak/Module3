@@ -1,0 +1,9 @@
+package com.ust.ioc2;
+
+public class Line {
+	Point p1=new Point();
+	public void DrawLine() {
+		System.out.println("from"+p1.getX()+","+P1);
+	}
+
+}

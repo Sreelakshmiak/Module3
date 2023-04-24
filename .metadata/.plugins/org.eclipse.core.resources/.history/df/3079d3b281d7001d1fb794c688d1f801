@@ -1,0 +1,14 @@
+package com.ust.ioc;
+
+public class Dbconnection implements Connection {
+	
+	private String url;
+	private String dbUserName;
+	private String dbPassword;
+	
+ public  Dbconnection getConnection() {
+	 System.out.println("getConnections called...");
+	 return new Dbconnection();
+	 
+ }
+}

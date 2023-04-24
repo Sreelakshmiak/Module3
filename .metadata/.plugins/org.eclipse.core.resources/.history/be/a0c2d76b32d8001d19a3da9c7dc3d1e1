@@ -1,0 +1,22 @@
+package com.ust.ioc.autowiring;
+
+public class B {
+	A a;
+	//A is type..autowiring ..a is a variable..and it is name..search in beans.xml 
+	//autowiring :: directly used by the constructor and inject 
+	//class should have a constructor with the parameter..
+	
+	// 
+	
+	public B(A a) {
+		this.a=a;
+		System.out.println("from B()constructor..");
+	}
+	
+	public void setA(A a) {
+		//set method is used to set the value
+		System.out.println("setA() called.....");
+		this.a=a;
+	}
+
+}

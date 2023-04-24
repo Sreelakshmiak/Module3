@@ -1,0 +1,8 @@
+2023-04-10 10:52:06,562 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-10 17:20:13,249 [Worker-111: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE-sources.jar
+2023-04-10 17:20:13,249 [Worker-99: Label Job] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE-sources.jar
+2023-04-10 17:20:13,332 [Worker-111: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE-sources.jar
+2023-04-10 17:20:13,375 [Worker-99: Label Job] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE-sources.jar
+2023-04-11 17:04:15,761 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-12 12:26:58,678 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-12 12:39:23,409 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

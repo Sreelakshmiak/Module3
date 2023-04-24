@@ -1,0 +1,13 @@
+package com.ust.ioc;
+
+public class TestLogin {
+	public static void main (String[] args) {
+//		Login login=new Login();
+//		login.setUserName("sree");
+//		login.setPassword("abc");
+//		String result=login.Validate();
+//		System.out.println(result);
+		BeanFactory factory =new xmlPthResource(new FileSystemResouce("bean.xml"));
+	}
+
+}

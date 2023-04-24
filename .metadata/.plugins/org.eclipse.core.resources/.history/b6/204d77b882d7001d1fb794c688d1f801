@@ -1,0 +1,39 @@
+package com.ust.ioc;
+
+public class Dbconnection implements Connection {
+	
+	private String url;
+	private String dbUserName;
+	private String dbPassword;
+	
+ public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getDbUserName() {
+		return dbUserName;
+	}
+
+	public void setDbUserName(String dbUserName) {
+		this.dbUserName = dbUserName;
+	}
+
+	public String getDbPassword() {
+		return dbPassword;
+	}
+
+	public void setDbPassword(String dbPassword) {
+		this.dbPassword = dbPassword;
+	}
+
+public  Dbconnection getConnection() {
+	java.sql.Connection(url.dbUserName.dbPassword);
+	 System.out.println("getConnections called...");
+	 return new Dbconnection();
+	 
+ }
+}
